@@ -1,0 +1,240 @@
+        body{
+            font-family: 'Poppins', sans-serif;
+            background-color: #2F303A;
+            font-weight: 500;
+        }
+
+        /* navbar */
+        .nav-menu{
+            background: #1C1D25;
+            box-shadow: ;
+            padding-left: 8%;
+            padding-right: 8%;
+            padding-top: 10px;
+        }
+
+        .nav-menu-index{
+            background: transparent;
+            padding-left: 8%;
+            padding-right: 8%;
+            padding-top: 10px;
+        }
+
+        .menu-item{
+            color: white;
+            transition: color .5s;
+        }
+
+        .menu-item:hover{
+            color: #EF5F25;
+        }
+
+        .nav-button{
+            padding: 0;
+        }
+
+        .line1, .line2, .line3{
+            width: 23px;
+            height: 3px;
+            margin: 5px;
+        }
+
+        .change .line1{
+            transform: rotate(-45deg) translate(-5px, 6px);
+        }
+
+        .change .line2{
+            opacity: 0;
+        }
+
+        .change .line3{
+            transform: rotate(45deg) translate(-5px, -6px);
+        }
+        /* end of navbar */
+
+        /* footer */
+        .footer-bg{
+            background: rgba(24, 25, 32, 0.81);
+        }
+
+        .footer-link{
+            color: #fff;
+            transition: all .45;
+        }
+
+        .footer-link:hover{
+            color: #EF5F25;
+            text-decoration: none;
+        }
+        /* end of footer */
+
+        /* ---------------------------------index style--------------------------------- */
+        .banner-bg{
+            background-image: url(images/BG.png);
+            background-repeat: no-repeat;
+        }
+
+        .btn-index{
+            background-color: #EF5F25;
+            border-radius: 0;
+            width: 20px%;
+            height: ;
+            transition: all .4s;
+        }
+
+        .btn-index:hover{
+            background-color: #2F303A;
+            transform: translateY(-1px);
+        }
+
+        /* banner */
+        .banner-h1{
+            animation-name: anim;
+            animation-duration: 2s;
+        }
+
+        .banner-h4{
+            animation-name: anim;
+            animation-duration: 2s;
+            animation-delay: .5s;
+            animation-fill-mode: backwards;
+        }
+
+        .banner-btn{
+            animation-name: anim;
+            animation-duration: 2s;
+            animation-delay: .5s;
+            animation-fill-mode: backwards;
+        }
+
+        @keyframes anim {
+            0% {
+                transform: translateY(-100px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        /* end of banner */
+
+        /* carousel slide */
+        .bg-custom{
+            background-color: rgba(39, 38, 38, 0.747);
+        }
+
+        .carousel-prev{
+            margin-left: -15px;
+        }
+
+        .carousel-next{
+            margin-right: -15px;
+        }
+        /* end of carousel slide */
+        /* ---------------------------------end of index style--------------------------------- */
+
+
+        /* ---------------------------------facilities style--------------------------------- */
+        
+        /* horizontal line */
+        .underline{
+            width: 130px;
+            border: 1px solid #EF5F25;
+            margin: auto;
+        }
+        /* end of horizontal line */
+
+        /* carousel indicators */
+        .carousel-indicators{
+            margin-bottom: -50px;
+        }
+        /* end of carousel indicators */
+
+        /* card */
+        .card-color{
+            background-color: rgba(24, 25, 32, 0.81);
+            transition: all .4s;
+        }
+
+        .card-color:hover{
+            transform: translateY(-1px);            
+        }
+        /* end of card */
+
+        /* list */
+        /* ul > li {
+            list-style-image: url('images/hr.png');  
+        } */
+        /*end of list*/
+
+        /*button*/
+        .btn-fac{
+            background-color:#ef5f25;
+            border-radius: 0;
+            color: white;
+            transition: all .4s;
+        }
+        .btn-fac:hover{
+            background-color: white;
+            color: #ef5f25;
+            transform: translateY(-1px);            
+        }
+        /* end of button */
+
+        /* ---------------------------------end of facilities style--------------------------------- */
+
+
+        /* ---------------------------------contact style--------------------------------- */
+
+        /* form */
+        .form-bg{
+            background-color: #202027;
+        }
+
+        .form-area{
+            background: transparent;
+            border: none;
+            border-radius: 0;
+            border-bottom: 1px solid #fff;
+            color: rgba(255, 255, 255, 0.5);
+            transition: all .4s;
+        }
+
+        .form-area:focus{
+            background: transparent;
+            box-shadow: none;
+            border-bottom: 1px solid #EF5F25;
+        }
+        /* end of form */
+
+        /* button */
+        .btn-con{
+            background-color: #EF5F25;
+        }
+        /* end of button */
+
+        /* ---------------------------------end of contact style--------------------------------- */
+
+
+        /* ---------------------------------offers style--------------------------------- */
+        .h5-color{
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .h4-color{
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        .btn-offer{
+            background-color: #EF5F25;
+            border-radius: 0;
+            width: 50%;
+            transition: all .4s;
+        }
+
+        .btn-offer:hover{
+            background-color: #2F303A;
+            transform: translateY(-1px);
+        }
+        /* ---------------------------------end of offers style--------------------------------- */
